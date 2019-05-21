@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "mybatis-3-mapper.dtd">
+<mapper namespace="com.mclx.Dao.IUserDao">
+
+    <!--配置查询所有-->
+    <!--id要写DAO中的方法名称-->
+    <select id="findALL">
+        select * from db_user
+    </select>
+</mapper>
